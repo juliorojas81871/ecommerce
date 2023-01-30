@@ -17,6 +17,16 @@ a {
   width: 0px;
 }
 
+.layout {
+  padding: 10px;
+}
+
+.main-container {
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+}
+
 .products-heading {
   text-align: center;
   margin: 40px 0px;
@@ -51,9 +61,11 @@ a {
   line-height: 0.9;
   width: 100%;
 }
+
 .hero-banner-container .beats-solo {
   font-size: 20px;
 }
+
 .hero-banner-container button {
   border-radius: 15px;
   padding: 10px 16px;
@@ -71,12 +83,14 @@ a {
   font-size: 4rem;
   margin-top: 4px;
 }
+
 .hero-banner-container h1 {
   color: white;
   font-size: 10em;
   margin-left: -20px;
   text-transform: uppercase;
 }
+
 .hero-banner-image {
   position: absolute;
   top: 0%;
@@ -95,26 +109,31 @@ a {
   flex-direction: column;
   color: #324d67;
 }
+
 .desc p {
   color: #5f5f5f;
   font-weight: 100;
   text-align: end;
 }
+
 .desc h5 {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 16px;
   align-self: flex-end;
 }
+
 .products-heading {
   text-align: center;
   margin: 40px 0px;
   color: #324d67;
 }
+
 .products-heading h2 {
   font-size: 40px;
   font-weight: 800;
 }
+
 .products-heading p {
   font-size: 16px;
   font-weight: 200;
@@ -135,9 +154,11 @@ a {
   transition: transform 0.5s ease;
   color: #324d67;
 }
+
 .product-card:hover {
   transform: scale(1.1, 1.1);
 }
+
 .product-image {
   border-radius: 15px;
   background-color: #ebebeb;
@@ -148,11 +169,13 @@ a {
 .product-name {
   font-weight: 500;
 }
+
 .product-price {
   font-weight: 800;
   margin-top: 6px;
   color: black;
 }
+
 .footer-banner-container {
   padding: 100px 40px;
   background-color: #f02d34;
@@ -168,6 +191,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 .banner-desc button {
   border-radius: 15px;
   padding: 10px 16px;
@@ -179,14 +203,17 @@ a {
   font-weight: 500;
   cursor: pointer;
 }
+
 .banner-desc .left h3 {
   font-weight: 900;
   font-size: 80px;
   margin-left: 25px;
 }
+
 .banner-desc .left p {
   margin: 18px;
 }
+
 .footer-banner-image {
   position: absolute;
   top: -25%;
@@ -195,10 +222,70 @@ a {
 .banner-desc .right {
   line-height: 1.4;
 }
+
 .banner-desc .right h3 {
   font-weight: 800;
   font-size: 60px;
 }
+
 .banner-desc .right p {
   font-size: 18px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 18px;
+  position: relative;
+}
+
+.logo {
+  color: gray;
+  font-size: 18px;
+}
+
+.cart-icon {
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.4s ease;
+  border: none;
+  background-color: transparent;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.cart-item-qty {
+  position: absolute;
+  right: -8px;
+  font-size: 12px;
+  color: #eee;
+  background-color: #f02d34;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.footer-container {
+  color: #324d67;
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.footer-container .icons{
+  font-size: 30px;
+  display: flex;
+  gap: 10px;
 }
