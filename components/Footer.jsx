@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="footer-container">
-      <p>{currentYear} JPhoenix All rights reserverd</p>
+      <p>@{currentYear} Phoenix All rights reserverd</p>
       <p className="icons">
         <AiFillInstagram />
         <AiOutlineTwitter />
