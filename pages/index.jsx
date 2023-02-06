@@ -4,7 +4,6 @@ import { HeroBanner, Product, FooterBanner  } from "../components";
 import { client } from "../lib/client";
 
 const Home = ({ products, bannerData }) => {
-  console.log(products);
   return (
     <>
       <Head>
